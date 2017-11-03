@@ -1,0 +1,194 @@
+/* Base Application Styles */
+html {
+	width: 100%;
+	height: 100%;
+	
+}
+body {
+	width: 100%;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:100%;
+	height:80%;
+	margin:10% auto;
+}
+
+.out-box {
+	width: 500px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
+.input-text {
+	width: 400px;
+	height: 60px;
+	margin:0 auto;
+}
+
+.input-text input {
+	width: 240px;
+	height: 26px;
+}
+
+.input-text button {
+	width: 60px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+.list-item {
+    position: absolute;
+    width: 320px;
+    height: 90px;
+    overflow: visible;
+    pointer-events: auto;
+    border-radius: 4px;
+    color: rgb(153, 153, 153);
+    line-height: 96px;
+    padding: 0 32px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: url('../images/cursor.png') 39 39, auto;
+    text-overflow: ellipsis;
+  	overflow: hidden;
+  	white-space: nowrap;
+  	margin:0 50px;
+  }
+  
+.destroy {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  margin: 25px 0;
+  font-size: 30px;
+  line-height: 40px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  transition: color 0.2s ease-out;
+}
+
+ .destroy:hover {
+  color: #af5b5e;
+}
+
+ .destroy:after {
+  content: '×';
+}
+
+ .list-item:hover .destroy {
+  display: block;
+ cursor: pointer;
+}
+
+/*#app {
+  		width: 100%;
+		height: 100%;
+		position: relative;
+  	}
+.container {
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	
+}*/
+
+/*.container .input {
+		width: 100%;
+		height: 40px;
+		border: none;
+		margin-bottom: 10px;
+	}*/
+
+
+
+
+/*.StackContainer	.ListItem .item_text {
+	    	width: 100%;
+	    	height: 100%;
+	    	display: inline-block;
+	    	margin: 0;
+	    	padding: 0;
+	    }
+	   .StackContainer	.ListItem .edit_input {
+	    	width: 100%;
+	    	height: 100%;
+	    	border: none;
+	    	display: inline-block;
+	    	text-indent: 100px;
+	    	position: absolute;
+	    	top: 0;
+	    	left: 0;
+	    }
+
+
+	    .ListItem:hover .destroy {
+			display: block;
+		}
+		.ListItem:hover .edit {
+			display: block;
+		}
+
+
+.StackContainer	.ListItem .edit {
+			display: none;
+		    position: absolute;
+		    top: 0;
+		    left: 10px;
+		    bottom: 0;
+		    margin: auto 0;
+		    color: #cc9a9a;
+		    font-size: 10px;
+		    transition: color 0.2s ease-out;
+		    
+		}
+
+.StackContainer	.ListItem .destroy:hover {
+			    	cursor: pointer;
+			    	color: #af5b5e;
+			    }
+	.StackContainer	.ListItem .destroy {
+			    display: none;
+			    position: absolute;
+			    top: 0;
+			    right: 10px;
+			    bottom: 0;
+			    margin: auto 0;
+			    color: #cc9a9a;
+			    font-size: 10px;
+			    transition: color 0.2s ease-out;
+			    
+		}
+.StackContainer	.ListItem {
+		width: 100%;
+		height: 80px;
+		background-color: #fff;
+		text-align: center;
+		line-height: 100px;
+		position: absolute;
+	    pointer-events: auto;
+	    transform-origin: 50% 50% 0px;
+	    box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	}
+
+
+	 .ListItem:hover .destroy {
+			display: block;
+		}
+		.ListItem:hover .edit {
+			display: block;
+		}*/
