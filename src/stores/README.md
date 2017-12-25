@@ -1,3 +1,4 @@
+<!-- 
 # About this folder
 This folder will hold all of your **flux** stores.
 You can include them into your components like this:
@@ -11,4 +12,4 @@ class MyComponent extends React.Component {
     MyStore.doSomething();
   }
 }
-```
+``` -->

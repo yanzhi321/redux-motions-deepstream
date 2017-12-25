@@ -38,7 +38,7 @@ export const todos = (state = initialTodos, action) => {
 			)
 		
 		case REMOVE_TODO:
-			return state = []
+			return  []
 		default:
 			return state
 	}
